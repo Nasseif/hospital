@@ -1,0 +1,294 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background-color: #445e70;
+    background-attachment: fixed;
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: #001c305e;
+}
+.landing{
+    background-image: url(https://images.pexels.com/photos/4210551/pexels-photo-4210551.jpeg?auto=compress&cs=tinysrgb&w=4000);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.landing .intro-text{
+position: absolute;
+left: 50%;
+top: 50%;
+text-align: center;
+transform: translate(-50% , -50%);
+}
+
+.landing .intro-text h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: #141414;
+}
+.landing .intro-text p{
+    font-size: 19px;
+    line-height: 1.8;
+}
+.button{
+    border: none;
+    padding: 3px;
+    width: 20%;
+    text-align: center;
+    background-color: #001c30;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.button:hover{
+    background-color: #141414;
+    color: #fff;
+    width: 40%;
+    transition: 0.5s;
+}
+#johns{
+    margin-top: 5%;
+    background-image: url(https://images.pexels.com/photos/239853/pexels-photo-239853.jpeg?auto=compress&cs=tinysrgb&w=4000);
+    background-size: cover;
+    height: 100vh;
+    color: rgb(22, 21, 21);
+    background-attachment: fixed;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+  
+#john{
+    text-align: center;
+    font-weight: bold;
+   
+}
+#naff {
+    background-color: rgba(255, 255, 255, 0.445);
+   
+
+}
+.subheading{
+    background-color: #fff;
+}
+.background{
+   background-color: #001c3081;
+   height: 88vh;
+   background-attachment: fixed;
+   
+}
+.about{
+    font-size: 13px;
+}
+
+  .slide {
+    float: left;
+    height: 75vh;
+    width: 728px;
+    margin-left:19%;
+    background-color: #001c30;
+    padding: 100px;
+  }
+.hotline{
+    margin-top: 5%;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 17px;
+    font-style: italic;
+    color: #001c30;
+}
+.icons{
+    margin-right: 30px;
+    text-align: right;
+
+}
+
+ .im {
+    float: right;
+  } 
+
+  .btn-primary:hover,
+  .btn-primary:focus {
+      background-color: #00277b;
+      border-color: #00277b;
+      box-shadow: none;
+      outline: none;
+  }
+  
+  .btn-primary {
+      color: #fff;
+      background-color: #00277b;
+      border-color: #00277b;
+  }
+  
+  section {
+      padding: 60px 0;
+  }
+  
+  section .section-title {
+      text-align: center;
+      color: #141414;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+  }
+  
+  #team .card {
+      border: none;
+      background: #ffffff;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .image-flip:hover .backside,
+  .image-flip.hover .backside {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      border-radius: .25rem;
+  }
+  
+  .image-flip:hover .frontside,
+  .image-flip.hover .frontside {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  }
+  
+  .mainflip {
+      -webkit-transition: 1s;
+      -webkit-transform-style: preserve-3d;
+      -ms-transition: 1s;
+      -moz-transition: 1s;
+      -moz-transform: perspective(1000px);
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      transition: 1s;
+      transform-style: preserve-3d;
+      position: relative;
+  }
+  
+  .frontside {
+      position: relative;
+      -webkit-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      z-index: 2;
+      margin-bottom: 30px;
+  }
+  
+  .backside {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: white;
+      -webkit-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      -o-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+      -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+      box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  }
+  
+  .frontside,
+  .backside {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transition: 1s;
+      -webkit-transform-style: preserve-3d;
+      -moz-transition: 3s;
+      -moz-transform-style: preserve-3d;
+      -o-transition: 3s;
+      -o-transform-style: preserve-3d;
+      -ms-transition: 3s;
+      -ms-transform-style: preserve-3d;
+      transition: 2s;
+      transform-style: preserve-3d;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .frontside .card,
+  .backside .card {
+      min-height: 312px;
+    
+  }
+  
+  .backside .card a {
+      font-size: 18px;
+      color: #00277b !important;
+  }
+  
+  .frontside .card .card-title,
+  .backside .card .card-title {
+      color: #00277b !important;
+  }
+  
+  .frontside .card .card-body img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
+.nas{
+    text-align: center;
+   margin-bottom: 50%;
+    width: 50%;
+    background-color: #00277b;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+}
+.nas:hover{
+width: 100%;
+background-color: rgb(0, 0, 0);
+color: #ffffff;
+transition: 1s;
+}
+.icon{
+    margin: 10px;
+}
+
+.icon :hover{
+background-color: #001c30;
+cursor: pointer;
+
+}
+.icons{
+    text-align: center;
+ 
+}
+.hotline{
+    text-align: center;
+}
+
+  #box:hover {
+    box-shadow: 0 0 50px rgb(0, 0, 0); 
+    border: none;
+  cursor: pointer;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  form{
+    border: #7a838a ;
+  }
